@@ -1,0 +1,13 @@
+@media (max-width: 368px) {
+    /* #container5_child1 {
+        display: flex;
+        Flex parent
+    } */
+
+    #container5_child1 a {
+        display: block !important;
+        /* Ensure <a> is block-level, which allows it to take full width */
+        /* flex-direction: column; */
+        /* Align content in a column */
+    }
+}

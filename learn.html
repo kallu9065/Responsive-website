@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            visibility: hidden;
+        }
+
+        #hello1:target,
+        #hello2:target,
+        #hello3:target,
+        #hello4:target {
+            visibility: visible;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#hello1">hello1</a>
+    <a href="#hello2">hello2</a>
+    <a href="#hello3">hello3</a>
+    <a href="#hello4">hello4</a>
+
+    <p id="hello1">hello1</p>
+    <p id="hello2">hello2</p>
+    <p id="hello3">hello3</p>
+    <p id="hello4">hello4</p>
+</body>
+
+</html>
